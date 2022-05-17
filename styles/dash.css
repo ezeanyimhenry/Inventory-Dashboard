@@ -1,0 +1,173 @@
+ html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin-top: 100px;
+}
+#wrapper{
+    padding-left: 0px;
+}
+#page-wrapper{
+    width: 100%;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+@media (min-width: 760px){
+    body{
+    margin-top: 50px;
+}
+    #wrapper{
+        padding-left: 255px;
+}
+    #page-wrapper{
+        padding: 10px;
+}
+    
+    
+}
+/* Top Navigation Style*/
+
+.top-nav{
+    0 15px; 
+}
+.top-nav>li{
+    float: left;
+    display: inline-block;
+}
+
+.top-nav>li>a{
+    color: #999999;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top-nav>li>a:hover, .top-nav>li>a:focus{
+    color:#000000;
+}
+/*Side Nav*/
+@media (min-width: 768px){
+    .side-nav{
+        position:fixed;
+        top: 51px;
+        bottom: 0;
+        width: 255px; 
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #222222;
+        padding-bottom: 40px;
+        border-radius: 0;
+    }
+    
+    .side-nav>li>a{
+        width: 255px;
+    }
+    .side-nav>li>a:hover, .side-nav>li>a:focus{
+        outline: none;
+        background-color:#000000 !important;
+        
+    }
+    
+}
+
+.side-nav>li>ul{
+    padding:0;
+}
+
+.side-nav>li>ul>li>a {
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999999;
+    display: block;
+}
+
+.side-nav>li>ul>li>a:hover{
+    color: #ffffff;
+}
+
+/*Customers panel*/
+
+.huge{
+    font-size: 40px;
+    line-height: normal;
+    
+}
+.panel-green{
+    border-color: #5cd85c;
+}
+.panel-yellow{
+    border-color: #f0ad4e;
+}
+.panel-red{
+    border-color:  #d9534f;
+}
+.panel-green>.panel-heading{
+    color: #ffffff;
+    background-color: #5cd85c;
+}
+.panel-yellow>.panel-heading{
+    color:#ffffff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow>a{
+    color: #f0ad4e;
+}
+
+.panel-green>a{
+    color: #5cd85c;
+}
+.panel-yellow>a:hover{
+    color: #ba8539;
+}
+.panel-red>a:hover{
+    color: #8d4341;
+}
+.panel-red>.panel-heading{
+    color: #ffffff;
+    background-color: #d9534f;
+}
+
+.panel-red>a{
+    color: #d9534f;
+}
+.tab>tbody>tr>a {
+    text-decoration: none;
+    color: #222222;
+}
+       .btt{
+    display: none;
+    background:#333333;
+    width: 60px;
+    position: fixed;
+    right: -12px;
+    bottom: 50px;
+    z-index: 9998;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+}
+.btt:hover{
+    background:  #444444;
+     box-shadow: 5px 10x 25px #555;
+}
+.btt i{
+    color: #ffffff;
+    font-size: 45px;
+    padding: 7px;
+}
+.btt i:hover{
+    color: #fff;
+}
+.hide {
+  opacity: 0;
+  
+}
+
+.show {
+    display: block;
+  opacity: 1;
+  
+}
+
